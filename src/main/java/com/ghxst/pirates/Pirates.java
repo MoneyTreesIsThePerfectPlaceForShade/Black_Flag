@@ -1,5 +1,6 @@
 package com.ghxst.pirates;
 
+import com.ghxst.pirates.block.ModBlocks;
 import com.ghxst.pirates.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
@@ -30,6 +31,7 @@ public class Pirates {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus); // регистрируем предметы в игре
+        ModBlocks.register(eventBus); // добавляем блоки
 
         eventBus.addListener(this::setup);
 

@@ -1,3 +1,6 @@
 {
-  "item.pirates.gold_coin" : "Gold Coin"
+  "item.pirates.gold_coin" : "Gold Coin",
+  "item.pirates.sabre" : "Sabre",
+
+  "block.pirates.bamboo_block" : "Bamboo Block"
 }

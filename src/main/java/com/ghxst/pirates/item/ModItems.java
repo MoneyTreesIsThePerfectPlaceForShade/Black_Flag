@@ -18,6 +18,9 @@ public class ModItems {
     //добавляем золотые монеты, они будут находиться в misc в творческом меню
     public static final RegistryObject<Item> GOLD_COIN = ITEMS.register("gold_coin", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
+    // добавляем пиратскую саблю
+    public static final RegistryObject<Item> SABRE = ITEMS.register("sabre", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(251)));
+
     // метод, который регистрирует предметы в игре
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

@@ -23,22 +23,22 @@ public class ModBlocks {
     // добавляем блок бамбука
     public static final RegistryObject<Block> BAMBOO_BLOCK = registerBlock("bamboo_block", () -> new Block(BlockBehaviour.Properties.of(Material.BAMBOO).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.BLACK_FLAG_TAB);
     // добавляем руду Йома
-    public static final RegistryObject<Block> YOMA_ORE = registerBlock("yoma_ore", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
+    public static final RegistryObject<Block> YOMA_ORE = registerBlock("yoma_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
     // добавляем блок Йома
     public static final RegistryObject<Block> YOMA_BLOCK = registerBlock("yoma_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
 
     // добавляем руду Хаку
-    public static final RegistryObject<Block> HAKU_ORE = registerBlock("haku_ore", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
+    public static final RegistryObject<Block> HAKU_ORE = registerBlock("haku_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
     // добавляем блок Хаку
     public static final RegistryObject<Block> HAKU_BLOCK = registerBlock("haku_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
 
     // добавляем руду Комакамо
-    public static final RegistryObject<Block> KOMAKAMO_ORE = registerBlock("komakamo_ore", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
+    public static final RegistryObject<Block> KOMAKAMO_ORE = registerBlock("komakamo_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
     // добавляем блок Комакамо
     public static final RegistryObject<Block> KOMAKAMO_BLOCK = registerBlock("komakamo_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
 
     // добавляем руду Маако
-    public static final RegistryObject<Block> MAAKO_ORE = registerBlock("maako_ore", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
+    public static final RegistryObject<Block> MAAKO_ORE = registerBlock("maako_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
     // добавляем блок Маако
     public static final RegistryObject<Block> MAAKO_BLOCK = registerBlock("maako_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
 

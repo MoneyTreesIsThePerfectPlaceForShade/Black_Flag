@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "pirates:haku_ore",
+    "pirates:haku_block",
+    "pirates:komakamo_block",
+    "pirates:komakamo_ore",
+    "pirates:maako_block",
+    "pirates:maako_ore",
+    "pirates:yoma_block",
+    "pirates:yoma_ore"
+  ]
+}

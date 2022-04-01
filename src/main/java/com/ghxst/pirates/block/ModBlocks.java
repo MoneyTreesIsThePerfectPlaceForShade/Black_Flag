@@ -1,6 +1,7 @@
 package com.ghxst.pirates.block;
 
 import com.ghxst.pirates.Pirates;
+import com.ghxst.pirates.item.ModCreativeModeTab;
 import com.ghxst.pirates.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,7 +21,12 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Pirates.MOD_ID);
 
     // добавляем блок бамбука
-    public static final RegistryObject<Block> BAMBOO_BLOCK = registerBlock("bamboo_block", () -> new Block(BlockBehaviour.Properties.of(Material.BAMBOO).strength(9f).requiresCorrectToolForDrops()),CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> BAMBOO_BLOCK = registerBlock("bamboo_block", () -> new Block(BlockBehaviour.Properties.of(Material.BAMBOO).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.BLACK_FLAG_TAB);
+    // добавляем руду Йома
+    public static final RegistryObject<Block> YOMA_ORE = registerBlock("yoma_ore", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
+    // добавляем блок Йома
+    public static final RegistryObject<Block> YOMA_BLOCK = registerBlock("yoma_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
+
 
     // регистрирует блок
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

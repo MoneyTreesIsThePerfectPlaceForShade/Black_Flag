@@ -13,6 +13,8 @@
 
 
   "block.pirates.bamboo_block" : "Бамбуковый блок",
+  "block.pirates.yoma_block" : "Блок йома",
+  "block.pirates.yoma_ore" : "Руда йома",
 
   "itemGroup.black_flag_tab": "Black Flag"
 }

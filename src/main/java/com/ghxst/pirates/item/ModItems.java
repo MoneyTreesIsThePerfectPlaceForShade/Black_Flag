@@ -31,6 +31,7 @@ public class ModItems {
     public static final RegistryObject<Item> MAAKO_GEM = ITEMS.register("maako_gem", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));
     // добавил йома гем
     public static final RegistryObject<Item> YOMA_GEM = ITEMS.register("yoma_gem", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));
+
     // добавил черный флаг для иконки
     public static final RegistryObject<Item> BLACK_FLAG_ITEM = ITEMS.register("black_flag_item", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));
 

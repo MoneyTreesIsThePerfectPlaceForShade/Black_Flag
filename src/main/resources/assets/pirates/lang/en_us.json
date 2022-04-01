@@ -9,5 +9,9 @@
   "item.pirates.maako_gem" : "Maako",
   "item.pirates.yoma_gem" : "Yoma",
 
-  "block.pirates.bamboo_block" : "Bamboo Block"
+  "item.pirates.black_flag_item" : "Black Flag",
+
+  "block.pirates.bamboo_block" : "Bamboo Block",
+
+  "itemGroup.black_flag_tab": "Black Flag"
 }

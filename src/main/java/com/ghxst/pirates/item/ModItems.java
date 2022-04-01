@@ -17,9 +17,21 @@ public class ModItems {
     //так добавляется новый предмет
     //добавляем золотые монеты, они будут находиться в misc в творческом меню
     public static final RegistryObject<Item> GOLD_COIN = ITEMS.register("gold_coin", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    // медная монета
+    public static final RegistryObject<Item> COPPER_COIN = ITEMS.register("copper_coin", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    // железная монета
+    public static final RegistryObject<Item> IRON_COIN = ITEMS.register("iron_coin", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    // металическая монета
+    public static final RegistryObject<Item> METAL_COIN = ITEMS.register("metal_coin", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    // добавил хаку гем
+    public static final RegistryObject<Item> HAKU_GEM = ITEMS.register("haku_gem", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    // добавил комакамо гем
+    public static final RegistryObject<Item> KOMAKAMO_GEM = ITEMS.register("komakamo_gem", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    // добавил маако гем
+    public static final RegistryObject<Item> MAAKO_GEM = ITEMS.register("maako_gem", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    // добавил йома гем
+    public static final RegistryObject<Item> YOMA_GEM = ITEMS.register("yoma_gem", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
-    // добавляем пиратскую саблю
-    public static final RegistryObject<Item> SABRE = ITEMS.register("sabre", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(251)));
 
     // метод, который регистрирует предметы в игре
     public static void register(IEventBus eventBus){

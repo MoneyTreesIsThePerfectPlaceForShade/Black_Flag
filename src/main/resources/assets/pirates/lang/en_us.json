@@ -1,6 +1,13 @@
 {
   "item.pirates.gold_coin" : "Gold Coin",
-  "item.pirates.sabre" : "Sabre",
+  "item.pirates.copper_coin" : "Copper Coin",
+  "item.pirates.iron_coin" : "Iron Coin",
+  "item.pirates.metal_coin" : "Metal Coin",
+
+  "item.pirates.haku_gem" : "Haku",
+  "item.pirates.komakamo_gem" : "Komakamo",
+  "item.pirates.maako_gem" : "Maako",
+  "item.pirates.yoma_gem" : "Yoma",
 
   "block.pirates.bamboo_block" : "Bamboo Block"
 }

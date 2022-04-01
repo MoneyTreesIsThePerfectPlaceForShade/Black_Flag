@@ -1,6 +1,14 @@
 {
   "item.pirates.gold_coin" : "Золотая монета",
-  "item.pirates.sabre" : "Сабля",
+  "item.pirates.copper_coin" : "Медная монета",
+  "item.pirates.iron_coin" : "Железная монета",
+  "item.pirates.metal_coin" : "Металическая монета",
+
+  "item.pirates.haku_gem" : "Хаку",
+  "item.pirates.komakamo_gem" : "Комакамо",
+  "item.pirates.maako_gem" : "Маако",
+  "item.pirates.yoma_gem" : "Йома",
+
 
   "block.pirates.bamboo_block" : "Бамбуковый блок"
 }

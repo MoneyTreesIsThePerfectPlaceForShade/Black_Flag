@@ -1,6 +1,6 @@
 {
   "parent" : "item/generated",
   "textures" : {
-    "layer0" : "pirates:item/sabre"
+    "layer0" : "pirates:item/maako_gem"
   }
 }

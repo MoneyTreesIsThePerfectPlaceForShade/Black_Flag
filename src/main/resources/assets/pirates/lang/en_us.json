@@ -4,10 +4,13 @@
   "item.pirates.iron_coin" : "Iron Coin",
   "item.pirates.metal_coin" : "Metal Coin",
 
+  "item.pirates.iron_ring" : "Iron Ring",
+
   "item.pirates.haku_gem" : "Haku",
   "item.pirates.komakamo_gem" : "Komakamo",
   "item.pirates.maako_gem" : "Maako",
   "item.pirates.yoma_gem" : "Yoma",
+
 
   "item.pirates.black_flag_item" : "Black Flag",
 
@@ -21,5 +24,7 @@
   "block.pirates.maako_block" : "Maako Block",
   "block.pirates.maako_ore" : "Maako Ore",
 
-  "itemGroup.black_flag_tab": "Black Flag"
+  "itemGroup.black_flag_tab": "Black Flag",
+
+  "item.pirates.iron_ring.no_valuables": "No Valuables Found!"
 }

@@ -4,6 +4,8 @@
   "item.pirates.iron_coin" : "Железная монета",
   "item.pirates.metal_coin" : "Металическая монета",
 
+  "item.pirates.iron_ring" : "Железное кольцо",
+
   "item.pirates.haku_gem" : "Хаку",
   "item.pirates.komakamo_gem" : "Комакамо",
   "item.pirates.maako_gem" : "Маако",
@@ -22,5 +24,7 @@
   "block.pirates.maako_block" : "Блок маако",
   "block.pirates.maako_ore" : "Руда маако",
 
-  "itemGroup.black_flag_tab": "Black Flag"
+  "itemGroup.black_flag_tab": "Черный флаг",
+
+  "item.pirates.iron_ring.no_valuables": "Ничего не найдено"
 }

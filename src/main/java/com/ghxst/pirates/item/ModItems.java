@@ -1,6 +1,7 @@
 package com.ghxst.pirates.item;
 
 import com.ghxst.pirates.Pirates;
+import com.ghxst.pirates.item.custom.IronRing;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -31,6 +32,10 @@ public class ModItems {
     public static final RegistryObject<Item> MAAKO_GEM = ITEMS.register("maako_gem", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));
     // добавил йома гем
     public static final RegistryObject<Item> YOMA_GEM = ITEMS.register("yoma_gem", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));
+
+    // добавил железное кольцо // когда добавляешь сложный предмет (создавая свой класс), нужно менять Item на наш класс // также тут пример того, как добавить прочность предмету
+    public static final RegistryObject<Item> IRON_RING = ITEMS.register("iron_ring", () -> new IronRing(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).durability(64)));
+
 
     // добавил черный флаг для иконки
     public static final RegistryObject<Item> BLACK_FLAG_ITEM = ITEMS.register("black_flag_item", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));

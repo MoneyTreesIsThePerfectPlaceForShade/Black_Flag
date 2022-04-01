@@ -16,6 +16,10 @@
   "block.pirates.yoma_ore" : "Yoma Ore",
   "block.pirates.haku_block" : "Haku Block",
   "block.pirates.haku_ore" : "Haku Ore",
+  "block.pirates.komakamo_block" : "Komakamo Block",
+  "block.pirates.komakamo_ore" : "Komakamo Ore",
+  "block.pirates.maako_block" : "Maako Block",
+  "block.pirates.maako_ore" : "Maako Ore",
 
   "itemGroup.black_flag_tab": "Black Flag"
 }

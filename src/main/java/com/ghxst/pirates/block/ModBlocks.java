@@ -32,6 +32,16 @@ public class ModBlocks {
     // добавляем блок Хаку
     public static final RegistryObject<Block> HAKU_BLOCK = registerBlock("haku_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
 
+    // добавляем руду Комакамо
+    public static final RegistryObject<Block> KOMAKAMO_ORE = registerBlock("komakamo_ore", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
+    // добавляем блок Комакамо
+    public static final RegistryObject<Block> KOMAKAMO_BLOCK = registerBlock("komakamo_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
+
+    // добавляем руду Маако
+    public static final RegistryObject<Block> MAAKO_ORE = registerBlock("maako_ore", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
+    // добавляем блок Маако
+    public static final RegistryObject<Block> MAAKO_BLOCK = registerBlock("maako_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
+
 
 
     // регистрирует блок

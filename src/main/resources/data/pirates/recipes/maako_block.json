@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pirates:maako_gem"
+    }
+  },
+  "result": {
+    "item": "pirates:maako_block"
+  }
+}

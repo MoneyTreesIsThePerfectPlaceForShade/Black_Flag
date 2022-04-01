@@ -27,6 +27,12 @@ public class ModBlocks {
     // добавляем блок Йома
     public static final RegistryObject<Block> YOMA_BLOCK = registerBlock("yoma_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
 
+    // добавляем руду Хаку
+    public static final RegistryObject<Block> HAKU_ORE = registerBlock("haku_ore", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
+    // добавляем блок Хаку
+    public static final RegistryObject<Block> HAKU_BLOCK = registerBlock("haku_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
+
+
 
     // регистрирует блок
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

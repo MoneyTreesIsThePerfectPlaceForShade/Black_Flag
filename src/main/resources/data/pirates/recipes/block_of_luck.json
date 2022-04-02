@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MY",
+    "KH"
+
+  ],
+  "key": {
+    "M": {
+      "item": "pirates:maako_block"
+    },
+    "Y": {
+      "item": "pirates:yoma_block"
+    },
+    "K": {
+      "item": "pirates:komakamo_block"
+    },
+    "H": {
+      "item": "pirates:haku_block"
+    }
+  },
+  "result": {
+    "item": "pirates:block_of_luck"
+  }
+}

@@ -11,6 +11,11 @@
   "item.pirates.maako_gem" : "Маако",
   "item.pirates.yoma_gem" : "Йома",
 
+  "item.pirates.akatsu_potion": "Зелье акатцу",
+  "item.pirates.kenrock_potion": "Зелье кенрок",
+  "item.pirates.midori_potion": "Зелье мидори",
+  "item.pirates.papuru_potion": "Зелье папуру",
+
   "item.pirates.black_flag_item" : "Черный флаг",
 
 
@@ -23,6 +28,8 @@
   "block.pirates.komakamo_ore" : "Руда комакамо",
   "block.pirates.maako_block" : "Блок маако",
   "block.pirates.maako_ore" : "Руда маако",
+
+  "block.pirates.block_of_luck" : "Блок, дарующий удачу",
 
   "itemGroup.black_flag_tab": "Черный флаг",
 

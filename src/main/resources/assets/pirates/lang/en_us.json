@@ -11,6 +11,10 @@
   "item.pirates.maako_gem" : "Maako",
   "item.pirates.yoma_gem" : "Yoma",
 
+  "item.pirates.akatsu_potion": "Akatsu Potion",
+  "item.pirates.kenrock_potion": "Kenrock Potion",
+  "item.pirates.midori_potion": "Midori Potion",
+  "item.pirates.papuru_potion": "Papuru Potion",
 
   "item.pirates.black_flag_item" : "Black Flag",
 
@@ -23,6 +27,9 @@
   "block.pirates.komakamo_ore" : "Komakamo Ore",
   "block.pirates.maako_block" : "Maako Block",
   "block.pirates.maako_ore" : "Maako Ore",
+
+
+  "block.pirates.block_of_luck" : "Block That Gives Luck",
 
   "itemGroup.black_flag_tab": "Black Flag",
 

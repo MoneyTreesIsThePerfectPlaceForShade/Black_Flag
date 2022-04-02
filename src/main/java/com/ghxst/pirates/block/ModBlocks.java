@@ -1,6 +1,7 @@
 package com.ghxst.pirates.block;
 
 import com.ghxst.pirates.Pirates;
+import com.ghxst.pirates.block.custom.TheBlockOfLuck;
 import com.ghxst.pirates.item.ModCreativeModeTab;
 import com.ghxst.pirates.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -30,21 +31,24 @@ public class ModBlocks {
     // добавляем руду Хаку
     public static final RegistryObject<Block> HAKU_ORE = registerBlock("haku_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
     // добавляем блок Хаку
-    public static final RegistryObject<Block> HAKU_BLOCK = registerBlock("haku_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
+    public static final RegistryObject<Block> HAKU_BLOCK = registerBlock("haku_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
 
     // добавляем руду Комакамо
     public static final RegistryObject<Block> KOMAKAMO_ORE = registerBlock("komakamo_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
     // добавляем блок Комакамо
-    public static final RegistryObject<Block> KOMAKAMO_BLOCK = registerBlock("komakamo_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
+    public static final RegistryObject<Block> KOMAKAMO_BLOCK = registerBlock("komakamo_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
 
     // добавляем руду Маако
     public static final RegistryObject<Block> MAAKO_ORE = registerBlock("maako_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
     // добавляем блок Маако
-    public static final RegistryObject<Block> MAAKO_BLOCK = registerBlock("maako_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
+    public static final RegistryObject<Block> MAAKO_BLOCK = registerBlock("maako_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
 
 
+    // добавляем блок удачи
+    public static final RegistryObject<Block> BLOCK_OF_LUCK = registerBlock("block_of_luck", () -> new TheBlockOfLuck(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()),ModCreativeModeTab.BLACK_FLAG_TAB);
 
-    // регистрирует блок
+
+    // регистрирует блоки
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);

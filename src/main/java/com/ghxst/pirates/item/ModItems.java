@@ -36,6 +36,11 @@ public class ModItems {
     // добавил железное кольцо // когда добавляешь сложный предмет (создавая свой класс), нужно менять Item на наш класс // также тут пример того, как добавить прочность предмету
     public static final RegistryObject<Item> IRON_RING = ITEMS.register("iron_ring", () -> new IronRing(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).durability(64)));
 
+    // добавляем еду разные виды зелий
+    public static final RegistryObject<Item> AKATSU_POTION = ITEMS.register("akatsu_potion", () -> new IronRing(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).food(ModFoods.AKATSU_POTION)));
+    public static final RegistryObject<Item> KENROCK_POTION = ITEMS.register("kenrock_potion", () -> new IronRing(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).food(ModFoods.KENROCK_POTION)));
+    public static final RegistryObject<Item> MIDORI_POTION = ITEMS.register("midori_potion", () -> new IronRing(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).food(ModFoods.MIDORI_POTION)));
+    public static final RegistryObject<Item> PAPURU_POTION = ITEMS.register("papuru_potion", () -> new IronRing(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).food(ModFoods.PAPURU_POTION)));
 
     // добавил черный флаг для иконки
     public static final RegistryObject<Item> BLACK_FLAG_ITEM = ITEMS.register("black_flag_item", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));

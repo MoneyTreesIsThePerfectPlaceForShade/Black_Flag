@@ -2,12 +2,16 @@ package com.ghxst.pirates.item;
 
 import com.ghxst.pirates.Pirates;
 import com.ghxst.pirates.item.custom.IronRing;
+import com.ghxst.pirates.item.custom.MeteorItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.jetbrains.annotations.Nullable;
 
 import java.rmi.registry.Registry;
 // класс для добавления новых предметов
@@ -37,10 +41,13 @@ public class ModItems {
     public static final RegistryObject<Item> IRON_RING = ITEMS.register("iron_ring", () -> new IronRing(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).durability(64)));
 
     // добавляем еду разные виды зелий
-    public static final RegistryObject<Item> AKATSU_POTION = ITEMS.register("akatsu_potion", () -> new IronRing(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).food(ModFoods.AKATSU_POTION)));
-    public static final RegistryObject<Item> KENROCK_POTION = ITEMS.register("kenrock_potion", () -> new IronRing(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).food(ModFoods.KENROCK_POTION)));
-    public static final RegistryObject<Item> MIDORI_POTION = ITEMS.register("midori_potion", () -> new IronRing(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).food(ModFoods.MIDORI_POTION)));
-    public static final RegistryObject<Item> PAPURU_POTION = ITEMS.register("papuru_potion", () -> new IronRing(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).food(ModFoods.PAPURU_POTION)));
+    public static final RegistryObject<Item> AKATSU_POTION = ITEMS.register("akatsu_potion", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).food(ModFoods.AKATSU_POTION)));
+    public static final RegistryObject<Item> KENROCK_POTION = ITEMS.register("kenrock_potion", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).food(ModFoods.KENROCK_POTION)));
+    public static final RegistryObject<Item> MIDORI_POTION = ITEMS.register("midori_potion", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).food(ModFoods.MIDORI_POTION)));
+    public static final RegistryObject<Item> PAPURU_POTION = ITEMS.register("papuru_potion", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).food(ModFoods.PAPURU_POTION)));
+
+    // добавляем метеор в качестве горючего
+    public static final RegistryObject<Item> METEOR = ITEMS.register("meteor", () -> new MeteorItem(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).food(ModFoods.PAPURU_POTION)));
 
     // добавил черный флаг для иконки
     public static final RegistryObject<Item> BLACK_FLAG_ITEM = ITEMS.register("black_flag_item", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));

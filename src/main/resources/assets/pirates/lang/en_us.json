@@ -35,5 +35,7 @@
 
   "itemGroup.black_flag_tab": "Black Flag",
 
-  "item.pirates.iron_ring.no_valuables": "No Valuables Found!"
+  "item.pirates.iron_ring.no_valuables": "No Valuables Found!",
+  "tooltip.pirates.iron_ring.tooltip.shift": "Use on a block to find chests!",
+  "tooltip.pirates.iron_ring.tooltip": "Press §eshift§r for info"
 }

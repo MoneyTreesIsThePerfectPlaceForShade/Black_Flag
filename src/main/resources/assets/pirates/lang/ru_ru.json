@@ -35,5 +35,7 @@
 
   "itemGroup.black_flag_tab": "Черный флаг",
 
-  "item.pirates.iron_ring.no_valuables": "Ничего не найдено"
+  "item.pirates.iron_ring.no_valuables": "Ничего не найдено",
+  "tooltip.pirates.iron_ring.tooltip.shift": "Нажми на блок, чтобы найти сундук",
+  "tooltip.pirates.iron_ring.tooltip": "Нажми §eshift§r, чтобы получить информацию"
 }

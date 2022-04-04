@@ -3,9 +3,9 @@ package com.ghxst.pirates.item;
 import com.ghxst.pirates.Pirates;
 import com.ghxst.pirates.item.custom.IronRing;
 import com.ghxst.pirates.item.custom.MeteorItem;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
+import com.ghxst.pirates.item.custom.WitherSwordItem;
+import com.ghxst.pirates.item.sound.ModSounds;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -47,10 +47,24 @@ public class ModItems {
     public static final RegistryObject<Item> PAPURU_POTION = ITEMS.register("papuru_potion", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).food(ModFoods.PAPURU_POTION)));
 
     // добавляем метеор в качестве горючего
-    public static final RegistryObject<Item> METEOR = ITEMS.register("meteor", () -> new MeteorItem(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).food(ModFoods.PAPURU_POTION)));
+    public static final RegistryObject<Item> METEOR = ITEMS.register("meteor", () -> new MeteorItem(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));
+
+    // добавляем оружие
+    public static final RegistryObject<Item> SWORD1 = ITEMS.register("sword1", () -> new SwordItem(ModTiers.HAKU, 2, 1f,new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));
+    public static final RegistryObject<Item> SWORD2 = ITEMS.register("sword2", () -> new SwordItem(ModTiers.HAKU, 3, 2f,new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));
+    public static final RegistryObject<Item> SWORD3 = ITEMS.register("sword3", () -> new SwordItem(ModTiers.HAKU, 4, 1f,new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));
+    public static final RegistryObject<Item> SWORD4 = ITEMS.register("sword4", () -> new SwordItem(ModTiers.HAKU, 2, 4f,new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));
+    public static final RegistryObject<Item> SWORD5 = ITEMS.register("sword5", () -> new WitherSwordItem(ModTiers.HAKU, 2, 5f,new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));
+    public static final RegistryObject<Item> SWORD6 = ITEMS.register("sword6", () -> new SwordItem(ModTiers.HAKU, 10, 1f,new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));
+    // добавляем музыку
+    public static final RegistryObject<Item> SPIRNG_WALK_DISC = ITEMS.register("spring_walk_disc", () -> new RecordItem(4, ModSounds.SPRING_WALK, new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));
+
 
     // добавил черный флаг для иконки
-    public static final RegistryObject<Item> BLACK_FLAG_ITEM = ITEMS.register("black_flag_item", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB)));
+    public static final RegistryObject<Item> BLACK_FLAG_ITEM = ITEMS.register("black_flag_item", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).stacksTo(1)));
+
+    public static final RegistryObject<Item> GOLD_BOW = ITEMS.register("gold_bow", () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.BLACK_FLAG_TAB).durability(100)));
+
 
     // метод, который регистрирует предметы в игре
     public static void register(IEventBus eventBus){

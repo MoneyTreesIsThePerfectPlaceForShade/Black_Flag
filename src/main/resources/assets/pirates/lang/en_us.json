@@ -6,10 +6,21 @@
 
   "item.pirates.iron_ring" : "Iron Ring",
 
+  "item.pirates.sword1" : "Frost Blade",
+  "item.pirates.sword2" : "Double Guts",
+  "item.pirates.sword3" : "Scorpion",
+  "item.pirates.sword4" : "Winter Queen",
+  "item.pirates.sword5" : "Shadow Blade",
+  "item.pirates.sword6" : "Storm-Titan",
+  "item.pirates.gold_bow" : "Gold Bow",
+
   "item.pirates.haku_gem" : "Haku",
   "item.pirates.komakamo_gem" : "Komakamo",
   "item.pirates.maako_gem" : "Maako",
   "item.pirates.yoma_gem" : "Yoma",
+
+  "item.pirates.spring_walk_disc": "Spring Walk Disc",
+  "item.pirates.spring_walk_disc.desc": "Money Trees - Walk in Spring Park",
 
   "item.pirates.akatsu_potion": "Akatsu Potion",
   "item.pirates.kenrock_potion": "Kenrock Potion",
@@ -29,6 +40,8 @@
   "block.pirates.komakamo_ore" : "Komakamo Ore",
   "block.pirates.maako_block" : "Maako Block",
   "block.pirates.maako_ore" : "Maako Ore",
+
+
 
 
   "block.pirates.block_of_luck" : "Block That Gives Luck",

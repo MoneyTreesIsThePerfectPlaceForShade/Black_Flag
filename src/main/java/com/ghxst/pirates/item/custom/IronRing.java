@@ -1,7 +1,9 @@
 package com.ghxst.pirates.item.custom;
 
+import com.ghxst.pirates.util.ModTags;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Registry;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.TranslatableComponent;
@@ -71,7 +73,7 @@ public class IronRing extends Item {
     }
     // возрвращаем сундук и эндер сундук
     private boolean isValuebleBlock(Block block){
-        return block == Blocks.CHEST || block == Blocks.ENDER_CHEST;
+        return Registry.BLOCK.getHolderOrThrow(Registry.BLOCK.getResourceKey(block).get()).is(ModTags.BLocks.IRON_RING_VALUABLES);
     }
 
 

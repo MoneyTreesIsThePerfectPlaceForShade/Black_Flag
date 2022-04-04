@@ -1,0 +1,10 @@
+{
+  "spring_walk": {
+    "sounds": [
+      {
+        "name": "pirates:spring_walk",
+        "stream": true
+      }
+    ]
+  }
+}

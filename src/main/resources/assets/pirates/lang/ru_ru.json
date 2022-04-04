@@ -6,6 +6,17 @@
 
   "item.pirates.iron_ring" : "Железное кольцо",
 
+  "item.pirates.spring_walk_disc": "Пластинка Money Trees",
+  "item.pirates.spring_walk_disc.desc": "Money Trees - Walk in Spring Park",
+
+  "item.pirates.sword1" : "Клинок Зимы",
+  "item.pirates.sword2" : "Двойной Гатс",
+  "item.pirates.sword3" : "Жало Скорпиона",
+  "item.pirates.sword4" : "Снежная Королева",
+  "item.pirates.sword5" : "Теневой клинок",
+  "item.pirates.sword6" : "Титан-Ураган",
+  "item.pirates.gold_bow" : "Золотой лук",
+
   "item.pirates.haku_gem" : "Хаку",
   "item.pirates.komakamo_gem" : "Комакамо",
   "item.pirates.maako_gem" : "Маако",
